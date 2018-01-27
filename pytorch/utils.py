@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from torch import nn
 from torch.nn import init
 
-def V(x, cuda=True):
-    v = torch.autograd.Variable(x)
+def V(x, cuda=True, **kwargs):
+    v = torch.autograd.Variable(x, **kwargs)
     return v.cuda() if cuda else v
 
 def init_params(net):

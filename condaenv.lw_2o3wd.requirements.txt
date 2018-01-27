@@ -1,0 +1,13 @@
+isoweek
+pandas_summary
+torchtext
+graphviz
+sklearn_pandas
+feather-format
+plotnine
+awscli
+kaggle-cli
+ipywidgets
+treeinterpreter
+scikit-optimize
+git+https://github.com/SauceCat/PDPbox.git

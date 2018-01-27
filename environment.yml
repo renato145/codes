@@ -67,6 +67,7 @@ dependencies:
 - ptyprocess
 - pycparser
 - pygments
+- pylint
 - pyparsing
 - pyqt
 - python>=3.6.0
@@ -97,6 +98,7 @@ dependencies:
 - zeromq
 - pytorch>=0.2.0
 - torchvision>=0.1.9
+- cuda90
 - bcolz
 - prompt_toolkit
 - pip:
