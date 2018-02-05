@@ -101,6 +101,7 @@ dependencies:
 - cuda90
 - bcolz
 - prompt_toolkit
+- waterfallcharts
 - pip:
   - isoweek
   - pandas_summary
