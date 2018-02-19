@@ -4,6 +4,7 @@ channels:
 - defaults
 - conda-forge
 dependencies:
+- dask
 - jupyter_contrib_nbextensions
 - h5py
 - scipy
@@ -101,8 +102,9 @@ dependencies:
 - cuda90
 - bcolz
 - prompt_toolkit
-- waterfallcharts
 - pip:
+  - autopep8
+  - imutils
   - isoweek
   - pandas_summary
   - torchtext

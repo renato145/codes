@@ -1,0 +1,49 @@
+name: obj
+channels:
+- defaults
+- conda-forge
+dependencies:
+- jupyter_contrib_nbextensions
+- h5py
+- scipy
+- numpy
+- pillow
+- opencv
+- jpeg
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- matplotlib
+- mkl
+- nbconvert
+- nbformat
+- notebook
+- numpy
+- pandas
+- pip
+- pyqt
+- python>=3.6.0
+- python-dateutil
+- pytz
+- pyzmq
+- qt
+- qtconsole
+- readline
+- scipy
+- seaborn
+- setuptools
+- simplegeneric
+- sip
+- tqdm
+- widgetsnbextension
+- bcolz
+- pip:
+  - autopep8
+  - ipywidgets
+  - tensorflow-gpu
+  - lxml
