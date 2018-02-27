@@ -6,6 +6,12 @@ import matplotlib.lines as lines
 from matplotlib.ticker import FuncFormatter
 from sklearn.tree import export_graphviz
 
+def rf_score():
+    print(f'Train score     : {m.score(x_train, y_train):0.5f}')
+    print(f'Validation score: {m.score(x_val, y_val):0.5f}')
+    if m.oob_score:
+        print(f'Oob score       : {m.oob_score_:0.5f}')
+
 def draw_tree(tree, df):
     s = export_graphviz(tree, out_file=None, feature_names=df.columns, filled=True)
     return graphviz.Source(s)
