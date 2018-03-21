@@ -110,8 +110,7 @@ def train_cosine(epochs, dl_train, model, crit, optim, sched_lens=None, dl_val=N
             result[k] += [running_loss / len(dl.dataset) / cycles]
             print(f' {"train" if train else "val"}({result[k][-1]:0.4f})', end='')
         print()
-        if sched:
-            sched.last_epoch = -1
+        sched.last_epoch = -1
         
     return result, lr_history
 

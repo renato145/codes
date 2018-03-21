@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AdaptiveConcatPool2d	../pytorch/layers.py	/^class AdaptiveConcatPool2d(nn.Module):$/;"	kind:class	line:4
+CycleLearner	../keras/callbacks.py	/^class CycleLearner(keras.callbacks.Callback):$/;"	kind:class	line:5
+Flatten	../pytorch/layers.py	/^class Flatten(nn.Module):$/;"	kind:class	line:12
+LrFinder	../keras/callbacks.py	/^class LrFinder(keras.callbacks.Callback):$/;"	kind:class	line:61
+LrFinder	../pytorch/trainer.py	/^class LrFinder:$/;"	kind:class	line:40
+V	../pytorch/utils.py	/^def V(x, cuda=True, **kwargs):$/;"	kind:function	line:8
+__init__	../keras/callbacks.py	/^    def __init__(self, lr, nb, n_cycle, cycle_len=1, cycle_mult=1):$/;"	kind:member	line:6
+__init__	../keras/callbacks.py	/^    def __init__(self, nb, start_lr=1e-5, end_lr=10):$/;"	kind:member	line:62
+__init__	../pytorch/layers.py	/^    def __init__(self): super().__init__()$/;"	kind:member	line:13
+__init__	../pytorch/layers.py	/^    def __init__(self, sz=None):$/;"	kind:member	line:5
+__init__	../pytorch/trainer.py	/^    def __init__(self, model, dl, optim, crit, start_lr=1e-5, end_lr=10, f=1):$/;"	kind:member	line:41
+add_datepart	../structured_data_preprocess.py	/^def add_datepart(df, fldname, drop=True):$/;"	kind:function	line:19
+apply_cats	../structured_data_preprocess.py	/^def apply_cats(df, trn):$/;"	kind:function	line:41
+calc_lr	../keras/callbacks.py	/^    def calc_lr(self):$/;"	kind:member	line:39
+callbacks.py	../keras/callbacks.py	1;"	kind:file	line:1
+conv_layer	../keras/layers.py	/^def conv_layer(x, f, k=3, s=1, p='same', act='relu', bn=True, se=True, se_ratio=16, d=0):$/;"	kind:function	line:9
+decay	../moving_avgs.py	/^def decay(x, d=0.9):$/;"	kind:function	line:8
+dense_layer	../keras/layers.py	/^def dense_layer(x, h, bn=True, act='relu', d=0):$/;"	kind:function	line:1
+df_splits	../structured_data_preprocess.py	/^def df_splits(df, val=0.15, test=None):$/;"	kind:function	line:8
+download	../images_from_google/download.py	/^def download(x, path):$/;"	kind:function	line:10
+download.py	../images_from_google/download.py	1;"	kind:file	line:1
+draw_tree	../utils.py	/^def draw_tree(tree, df):$/;"	kind:function	line:15
+eval_classification	../pytorch/trainer.py	/^def eval_classification(model, dl, name):$/;"	kind:function	line:117
+find	../pytorch/trainer.py	/^    def find(self):$/;"	kind:member	line:54
+fix_missing	../structured_data_preprocess.py	/^def fix_missing(df, col, name, na_dict):$/;"	kind:function	line:48
+forward	../pytorch/layers.py	/^    def forward(self, x): return torch.cat([self.mp(x), self.ap(x)], 1)$/;"	kind:member	line:10
+forward	../pytorch/layers.py	/^    def forward(self, x): return x.view(x.size(0), -1)$/;"	kind:member	line:14
+get_img	../pytorch/utils.py	/^def get_img(x):$/;"	kind:function	line:31
+get_lines	../images_from_google/download.py	/^def get_lines(x):$/;"	kind:function	line:6
+get_sample	../structured_data_preprocess.py	/^def get_sample(df,n):$/;"	kind:function	line:30
+init_params	../pytorch/utils.py	/^def init_params(net):$/;"	kind:function	line:18
+layers.py	../keras/layers.py	1;"	kind:file	line:1
+layers.py	../pytorch/layers.py	1;"	kind:file	line:1
+main	../images_from_google/download.py	/^def main(path):$/;"	kind:function	line:25
+money	../utils.py	/^	def money(x, pos):$/;"	kind:function	line:69
+moving_avgs.py	../moving_avgs.py	1;"	kind:file	line:1
+movingaverage	../moving_avgs.py	/^def movingaverage(values, window):$/;"	kind:function	line:3
+numericalize	../structured_data_preprocess.py	/^def numericalize(df, col, name, max_n_cat):$/;"	kind:function	line:59
+on_batch_end	../keras/callbacks.py	/^    def on_batch_end(self, batch, logs={}):$/;"	kind:member	line:25
+on_batch_end	../keras/callbacks.py	/^    def on_batch_end(self, batch, logs={}):$/;"	kind:member	line:76
+on_epoch_end	../keras/callbacks.py	/^    def on_epoch_end(self, epoch, logs=None):$/;"	kind:member	line:22
+on_train_begin	../keras/callbacks.py	/^    def on_train_begin(self, logs={}):$/;"	kind:member	line:17
+on_train_begin	../keras/callbacks.py	/^    def on_train_begin(self, logs={}):$/;"	kind:member	line:71
+plot	../keras/callbacks.py	/^    def plot(self, n_skip_start=2, xlim=None, ylim=None):$/;"	kind:member	line:101
+plot	../pytorch/trainer.py	/^    def plot(self, skips=2, xlim=None, ylim=None, fs=(12,4)):$/;"	kind:member	line:68
+plot_loss	../keras/callbacks.py	/^    def plot_loss(self):$/;"	kind:member	line:93
+plot_loss	../keras/callbacks.py	/^    def plot_loss(self, skip=10):$/;"	kind:member	line:52
+plot_lr	../keras/callbacks.py	/^    def plot_lr(self):$/;"	kind:member	line:55
+plot_lr	../keras/callbacks.py	/^    def plot_lr(self):$/;"	kind:member	line:96
+plot_train	../pytorch/trainer.py	/^def plot_train(results, skip=0, fs=(7,4)):$/;"	kind:function	line:34
+proc_df	../structured_data_preprocess.py	/^def proc_df(df, y_fld, skip_flds=None, do_scale=False, na_dict=None,$/;"	kind:function	line:85
+python_parallel.py	../python_parallel.py	1;"	kind:file	line:1
+reset_rf_samples	../utils.py	/^def reset_rf_samples():$/;"	kind:function	line:26
+rf_score	../utils.py	/^def rf_score():$/;"	kind:function	line:9
+scale_vars	../structured_data_preprocess.py	/^def scale_vars(df, mapper):$/;"	kind:function	line:77
+set_rf_samples	../utils.py	/^def set_rf_samples(n):$/;"	kind:function	line:19
+split_dataset	../pytorch/utils.py	/^def split_dataset(ds, splits=[0.2]):$/;"	kind:function	line:12
+step	../pytorch/trainer.py	/^def step(model, crit, optim, data, train=True):$/;"	kind:function	line:3
+structured_data_preprocess.py	../structured_data_preprocess.py	1;"	kind:file	line:1
+tqdm_parallel_map	../python_parallel.py	/^def tqdm_parallel_map(fn, x, workers=8):$/;"	kind:function	line:6
+train	../pytorch/trainer.py	/^def train(epochs, dl_train, model, crit, optim, dl_val=None):$/;"	kind:function	line:15
+train_cats	../structured_data_preprocess.py	/^def train_cats(df):$/;"	kind:function	line:35
+train_cosine	../pytorch/trainer.py	/^def train_cosine(epochs, dl_train, model, crit, optim, sched_lens=None, dl_val=None):$/;"	kind:function	line:82
+trainer.py	../pytorch/trainer.py	1;"	kind:file	line:1
+update_lr	../keras/callbacks.py	/^    def update_lr(self):$/;"	kind:member	line:35
+update_lr	../keras/callbacks.py	/^    def update_lr(self):$/;"	kind:member	line:89
+update_lr	../pytorch/trainer.py	/^    def update_lr(self, iteration):$/;"	kind:member	line:49
+utils.py	../pytorch/utils.py	1;"	kind:file	line:1
+utils.py	../utils.py	1;"	kind:file	line:1
+waterfallplot	../utils.py	/^def waterfallplot(sample, data, Title="", x_lab="", y_lab="",$/;"	kind:function	line:33

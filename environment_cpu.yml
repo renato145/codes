@@ -98,9 +98,8 @@ dependencies:
 - widgetsnbextension
 - xz
 - zeromq
-- pytorch>=0.2.0
-- torchvision>=0.1.9
-- cuda90
+- pytorch
+- torchvision
 - bcolz
 - prompt_toolkit
 - pip:
