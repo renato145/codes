@@ -31,6 +31,7 @@ find	../pytorch/trainer.py	/^    def find(self):$/;"	kind:member	line:54
 fix_missing	../structured_data_preprocess.py	/^def fix_missing(df, col, name, na_dict):$/;"	kind:function	line:48
 forward	../pytorch/layers.py	/^    def forward(self, x): return torch.cat([self.mp(x), self.ap(x)], 1)$/;"	kind:member	line:10
 forward	../pytorch/layers.py	/^    def forward(self, x): return x.view(x.size(0), -1)$/;"	kind:member	line:14
+get_bs	../webscrapping/utils.py	/^def get_bs(url):$/;"	kind:function	line:4
 get_img	../pytorch/utils.py	/^def get_img(x):$/;"	kind:function	line:31
 get_lines	../images_from_google/download.py	/^def get_lines(x):$/;"	kind:function	line:6
 get_sample	../structured_data_preprocess.py	/^def get_sample(df,n):$/;"	kind:function	line:30
@@ -73,4 +74,5 @@ update_lr	../keras/callbacks.py	/^    def update_lr(self):$/;"	kind:member	line:
 update_lr	../pytorch/trainer.py	/^    def update_lr(self, iteration):$/;"	kind:member	line:49
 utils.py	../pytorch/utils.py	1;"	kind:file	line:1
 utils.py	../utils.py	1;"	kind:file	line:1
+utils.py	../webscrapping/utils.py	1;"	kind:file	line:1
 waterfallplot	../utils.py	/^def waterfallplot(sample, data, Title="", x_lab="", y_lab="",$/;"	kind:function	line:33

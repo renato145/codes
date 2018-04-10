@@ -16,6 +16,7 @@ dependencies:
 - zlib
 - freetype
 - libtiff
+- beautifulsoup4
 - bleach
 - certifi
 - cffi
@@ -23,6 +24,7 @@ dependencies:
 - decorator
 - entrypoints
 - expat
+- fire
 - fontconfig
 - glib
 - html5lib
@@ -105,17 +107,18 @@ dependencies:
 - prompt_toolkit
 - pip:
   - autopep8
-  - imutils
-  - isoweek
-  - pandas_summary
-  - torchtext
-  - graphviz
-  - sklearn_pandas
-  - feather-format
-  - plotnine
   - awscli
-  - kaggle-cli
+  - feather-format
+  - graphviz
+  - imutils
   - ipywidgets
-  - treeinterpreter
+  - isoweek
+  - kaggle-cli
+  - pandas_summary
+  - pdpbox
+  - plotnine
+  - rfpimp
   - scikit-optimize
-  - git+https://github.com/SauceCat/PDPbox.git
+  - sklearn_pandas
+  - torchtext
+  - treeinterpreter

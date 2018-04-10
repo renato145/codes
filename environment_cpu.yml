@@ -16,6 +16,7 @@ dependencies:
 - zlib
 - freetype
 - libtiff
+- beautifulsoup4
 - bleach
 - certifi
 - cffi
