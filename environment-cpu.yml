@@ -4,6 +4,7 @@ channels:
 - defaults
 - conda-forge
 dependencies:
+- altair
 - dask
 - jupyter_contrib_nbextensions
 - h5py
@@ -20,11 +21,14 @@ dependencies:
 - bleach
 - certifi
 - cffi
+- cookiecutter
 - cycler
 - decorator
 - entrypoints
 - expat
+- fire
 - fontconfig
+- geopandas
 - glib
 - html5lib
 - icu
@@ -98,24 +102,27 @@ dependencies:
 - wheel
 - widgetsnbextension
 - xz
+- vega3
+- vega_datasets
 - zeromq
-- pytorch
-- torchvision
+- pytorch-cpu
+- torchvision-cpu
+- cuda90
 - bcolz
 - prompt_toolkit
 - pip:
   - autopep8
-  - imutils
-  - isoweek
-  - pandas_summary
-  - torchtext
-  - graphviz
-  - sklearn_pandas
-  - feather-format
-  - plotnine
   - awscli
-  - kaggle-cli
+  - feather-format
+  - graphviz
+  - imutils
   - ipywidgets
-  - treeinterpreter
+  - isoweek
+  - kaggle-cli
+  - pandas_summary
+  - pdpbox
+  - plotnine
+  - rfpimp
   - scikit-optimize
-  - git+https://github.com/SauceCat/PDPbox.git
+  - sklearn_pandas
+  - treeinterpreter

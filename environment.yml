@@ -4,6 +4,7 @@ channels:
 - defaults
 - conda-forge
 dependencies:
+- altair
 - dask
 - jupyter_contrib_nbextensions
 - h5py
@@ -20,12 +21,14 @@ dependencies:
 - bleach
 - certifi
 - cffi
+- cookiecutter
 - cycler
 - decorator
 - entrypoints
 - expat
 - fire
 - fontconfig
+- geopandas
 - glib
 - html5lib
 - icu
@@ -99,6 +102,8 @@ dependencies:
 - wheel
 - widgetsnbextension
 - xz
+- vega3
+- vega_datasets
 - zeromq
 - pytorch>=0.2.0
 - torchvision>=0.1.9
