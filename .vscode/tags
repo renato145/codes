@@ -17,6 +17,7 @@ __init__	../pytorch/layers.py	/^    def __init__(self, sz=None):$/;"	kind:member
 __init__	../pytorch/trainer.py	/^    def __init__(self, model, dl, optim, crit, start_lr=1e-5, end_lr=10, f=1):$/;"	kind:member	line:41
 add_datepart	../structured_data_preprocess.py	/^def add_datepart(df, fldname, drop=True):$/;"	kind:function	line:19
 apply_cats	../structured_data_preprocess.py	/^def apply_cats(df, trn):$/;"	kind:function	line:41
+binarize	../cv2/utils.py	/^def binarize(x, k=5, thresh=127, thresh_type=cv2.THRESH_BINARY):$/;"	kind:function	line:13
 calc_lr	../keras/callbacks.py	/^    def calc_lr(self):$/;"	kind:member	line:39
 callbacks.py	../keras/callbacks.py	1;"	kind:file	line:1
 conv_layer	../keras/layers.py	/^def conv_layer(x, f, k=3, s=1, p='same', act='relu', bn=True, se=True, se_ratio=16, d=0):$/;"	kind:function	line:9
@@ -32,6 +33,7 @@ fix_missing	../structured_data_preprocess.py	/^def fix_missing(df, col, name, na
 forward	../pytorch/layers.py	/^    def forward(self, x): return torch.cat([self.mp(x), self.ap(x)], 1)$/;"	kind:member	line:10
 forward	../pytorch/layers.py	/^    def forward(self, x): return x.view(x.size(0), -1)$/;"	kind:member	line:14
 get_bs	../webscrapping/utils.py	/^def get_bs(url):$/;"	kind:function	line:4
+get_contours	../cv2/utils.py	/^def get_contours(thresh):$/;"	kind:function	line:19
 get_img	../pytorch/utils.py	/^def get_img(x):$/;"	kind:function	line:31
 get_lines	../images_from_google/download.py	/^def get_lines(x):$/;"	kind:function	line:6
 get_sample	../structured_data_preprocess.py	/^def get_sample(df,n):$/;"	kind:function	line:30
@@ -61,6 +63,7 @@ reset_rf_samples	../utils.py	/^def reset_rf_samples():$/;"	kind:function	line:26
 rf_score	../utils.py	/^def rf_score():$/;"	kind:function	line:9
 scale_vars	../structured_data_preprocess.py	/^def scale_vars(df, mapper):$/;"	kind:function	line:77
 set_rf_samples	../utils.py	/^def set_rf_samples(n):$/;"	kind:function	line:19
+show_img	../cv2/utils.py	/^def show_img(x, ax=None, figsize=(12,13)):$/;"	kind:function	line:5
 split_dataset	../pytorch/utils.py	/^def split_dataset(ds, splits=[0.2]):$/;"	kind:function	line:12
 step	../pytorch/trainer.py	/^def step(model, crit, optim, data, train=True):$/;"	kind:function	line:3
 structured_data_preprocess.py	../structured_data_preprocess.py	1;"	kind:file	line:1
@@ -72,6 +75,7 @@ trainer.py	../pytorch/trainer.py	1;"	kind:file	line:1
 update_lr	../keras/callbacks.py	/^    def update_lr(self):$/;"	kind:member	line:35
 update_lr	../keras/callbacks.py	/^    def update_lr(self):$/;"	kind:member	line:89
 update_lr	../pytorch/trainer.py	/^    def update_lr(self, iteration):$/;"	kind:member	line:49
+utils.py	../cv2/utils.py	1;"	kind:file	line:1
 utils.py	../pytorch/utils.py	1;"	kind:file	line:1
 utils.py	../utils.py	1;"	kind:file	line:1
 utils.py	../webscrapping/utils.py	1;"	kind:file	line:1

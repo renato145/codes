@@ -63,6 +63,7 @@ dependencies:
 - olefile
 - openssl
 - pandas
+- pandas-profiling
 - pandocfilters
 - path.py
 - patsy

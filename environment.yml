@@ -63,6 +63,7 @@ dependencies:
 - olefile
 - openssl
 - pandas
+- pandas-profiling
 - pandocfilters
 - path.py
 - patsy
@@ -110,6 +111,7 @@ dependencies:
 - cuda90
 - bcolz
 - prompt_toolkit
+- fastai::fastprogress
 - pip:
   - autopep8
   - awscli
